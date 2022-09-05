@@ -1,0 +1,35 @@
+:root {
+  --bg-color: #000;
+  --bgrow3-color: #092d38;
+  --bgrow2-color: #06181c;
+  --bgrow1-color: #030b0d;
+  --bd-row: #4a808c;
+  --btn-color: #065e7c;
+
+  font-size: 62.5%;
+
+  --placeholder-color: #7c7c8a;
+  --txt-color: #e1e1e6;
+  --remove-color: #f75a68;
+}
+
+body {
+  font: 1.6rem;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+table a {
+  text-decoration: none;
+  color: var(--txt-color);
+}
